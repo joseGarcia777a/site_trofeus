@@ -1,0 +1,246 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Bungee', sans-serif;
+}
+
+a {
+    font-family: 'Bungee', sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(151, 167, 171);
+}
+a:hover{
+    text-decoration: underline;
+    color: rgb(121, 159, 169);
+}
+
+h2 {
+    font-size: 49px;
+    margin: 20px;
+    font-family: 'Bungee', sans-serif;
+    color: rgb(211, 230, 236);
+}
+
+#topo h2 {
+    color: rgba(219, 159, 76, 0.845);
+}
+
+h3 {
+    font-size: 28px;
+    font-family: 'Bungee', sans-serif;
+    color: rgb(127, 165, 176);
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+time {
+    font-size: 10px;
+}
+
+
+/* Barra de menu */
+header {
+    width: 100%;
+}
+
+#inicio img{
+    height: 60px;
+    margin: 10px 20px;
+}
+
+#inicio {
+    position: fixed;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 10%;
+    width: 100%;
+    background-color: rgb(29, 90, 175);
+    color: rgb(211, 230, 236);
+    box-shadow: 0 3px 10px rgb(23, 77, 151);
+}
+
+#menu {
+    padding-top: 80px;
+    background-color: rgb(23, 77, 151);
+    box-shadow: 0 3px 10px rgb(23, 77, 151);
+}
+
+#menu li {
+    display: inline;
+    padding: 17px;
+}
+
+#menu li:hover {
+    background-color: rgb(29, 90, 175);
+    cursor: pointer;
+}
+
+#menu a {
+    font-size: 22px;
+    color: rgb(211, 230, 236);
+    text-decoration: none;
+}
+
+#menu ul, section {
+    display: flex;
+    justify-content: center;
+}
+
+/* main  section */
+
+.contender {
+    width: 1200px;
+    margin-top: 100px;
+    background-color: rgba(29, 90, 175, 0.421);
+    border-radius: 7px;
+}
+
+#topo {
+    background-color: rgba(219, 159, 76, 0.295);
+}
+
+.contender img {
+    width: 500px;
+}
+
+.artigo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.artigo div {
+    margin: 20px;
+    font-size: 18px;
+}
+
+.trofeus img{
+    width: 300px;
+}
+
+/* trofeus */
+.trofeus header, .quantTro {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(250, 250, 250, 0.826);
+}
+
+.trofeus header{
+    padding-top: 100px;
+}
+
+.lista img {
+    width: 50px;
+}
+
+.lista li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgba(29, 90, 175, 0.46);
+    width: 300px;
+    margin: 20px 50px;
+    padding: 15px;
+    border-radius: 7px;
+}
+
+.conjuto {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(250, 250, 250, 0.826);
+    border-radius: 0 0 7px 7px;
+}
+
+#mais img {
+    width: 350px;
+    margin: 15px;
+    border-radius: 7px;
+}
+
+#mais {
+    margin-top: 15px;
+}
+
+/* mais jogos */
+
+.games li {
+    display: inline;
+}
+
+.games ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.games img {
+    width: 190px;
+}
+
+.games img:hover {
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 400px;
+    margin-top: 100px;
+    padding: 50px;
+    background-color: rgb(29, 90, 175);
+}
+
+form input, form textarea, form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 7px;
+    border-style: solid;
+    border-color: white;
+    background-color: white;
+}
+
+form button:hover {
+    background-color: rgb(223, 221, 221);
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+.social {
+    width: 250px;
+    height: 40px;
+    padding-top: 9px;
+    background-color: white;
+    border-radius: 7px;
+}
+
+.social img {
+    height: 24px;
+}
+
+.social li {
+    display: inline;
+    margin: 8px;
+}
+
+.social li a {
+    text-decoration: none;
+}
+
+.endereco {
+    color: white;
+}
